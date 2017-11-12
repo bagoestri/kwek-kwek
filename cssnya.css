@@ -1,0 +1,774 @@
+#ukuran{
+	height: 20%;
+	width:100%;
+	background-color: yellow;
+}
+#tulisanatas{
+	font-family: MV Boli;
+	font-size: 25pt;
+}
+#tulisanbawah{
+	font-family: MV Boli;
+	font-size: 25pt;
+}
+#font_kwek{
+	font-family: MV Boli;
+	font-size: 50pt;
+}
+#margin{
+	margin: 0;
+	background-color: white;
+}
+#fontdaftar{
+	font-family: Arial;
+	font-size: 25pt;
+}
+#fontskrg{
+	font-family: Arial;
+	font-size: 18pt;
+}
+.placeholder{
+	text-align: center;
+}
+.buttondaftar{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	color: initial;
+	width: 220px;
+	height: 18px;
+	text-align: center;
+}
+.buttonlogin{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	text-align: center;
+	color: initial;
+	width: 70px;
+	height: 20px;
+}
+.tabellp{
+left: 50%;
+top: 50%;
+width: 40%;
+height: 40%;
+background-color: #CCCCCC;
+}
+* {
+	margin :0 ;
+	padding:0;
+}
+nav ul ul {
+ display: none;
+}
+
+nav ul li:hover > ul{
+display: block;
+width: 270px;
+}
+nav ul {
+ background: yellow;
+ list-style: none;
+ position: relative;
+ display: inline-table;
+ width: 100%;
+}
+
+nav ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+nav ul li{
+ float:left;
+}
+
+nav ul li:hover{
+ background:yellow;
+}
+
+nav ul li:hover a{
+ color: black;
+}
+
+nav ul li a{
+ display: block;
+ padding: 0px;
+ color: black;
+ text-decoration: none;
+}
+
+nav ul ul{
+ background: gray;
+ position: absolute;
+
+}
+
+nav ul ul li{
+ float:none;
+ position: relative;
+}
+
+nav ul ul li a{
+ padding: 10px 10px;
+ color: black;
+}
+
+nav ul ul li a:hover{
+ background-color: darkgray;
+}
+
+nav ul ul ul{
+ position: absolute;
+ left: 100%;
+}
+#pcccari{
+	padding-left: 0px;
+	padding-top: 10px;
+}
+#pccikons{
+	padding-top: 10px;
+}
+#ukuransearch{
+	height: 30px;
+	width: 300px;
+}
+#pccprofil{
+	padding-top: 5px;
+}
+#pcchome{
+	padding-left: 30px;
+	padding-top: 15px;
+}
+#ikonprofil{
+	width: 80px;
+	height: 80px;
+}
+#ikonkwek{
+	height: 70px;
+	width: 50px;
+}
+#ikon{
+	width: 50px;
+	height: 50px;
+}
+#pcckwek{
+	padding-top: 5px;
+	padding-left: 30px;
+
+}
+#fontbagoes{
+	font-family: Lucida Sans Unicode;
+	font-size: 20pt;
+}
+#ikons{
+	width: 30px; 
+	height: 30px;
+}
+#fontnav{
+	font-family: Lucida Sans Unicode;
+	font-size: 20pt;
+	text-decoration: none;
+	color: initial;
+}
+#marginhome{
+	background-color: #EDE9E3;
+}
+#ikonfotoprofil{
+	width: 180px; 
+	height: 250px;
+}
+.bodyhome{
+	width: 1200px;
+}
+.bodyhome{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: block; 
+	padding-top: 20px;
+}
+.box1{
+	height: auto;
+	width: auto;
+	display: inline-block;
+	border-style: groove;
+	background-color: white;
+}
+.box2{
+	vertical-align: top;
+	height: auto;
+	width: 500px;
+	display: inline-block;	
+	margin-left: 90px;
+	margin-right: 90px;
+}
+#kolom_komentar_home{
+	margin-left: 5px;
+	width: 500px;
+	height: 30px;
+	border-style: groove;
+	margin-top: -10px;
+}
+.box3{
+	float: right;
+	vertical-align: top;
+	width: auto;
+	display: inline-block;
+	border-style: groove;
+	background-color: white;
+}
+#ikon_indo{
+	width:25px; 
+	height:15px;
+}
+#ikon_galeri{
+	padding-top: 10px;
+	display: inline-block;	
+	padding-left: 5px;
+}
+#ikon_tambah{
+	padding-top: 10px;
+	display: inline-block;	
+	width: 35px;
+	height: 35px;
+	padding-left: 5px;
+}
+#txtbox2{
+	text-align: justify;
+	font-family: Lucida Sans Unicode;
+	font-size: 25pt;
+	display: inline-block;
+	padding-left: 5px;
+}
+#txtbox3{
+	font-family: Lucida Sans Unicode;
+	font-size: 15pt;
+	color: blue;
+}
+#txtbox3_bawah{
+	font-family: Lucida Sans Unicode;
+	font-size: 25pt;
+	display: inline-block;
+	margin-left: 35px;
+}
+#ikonbox3{
+	margin-left: 15px;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	padding-top: 10px;
+}
+.boxdlmbox{
+	height: auto;
+	width: 520px;
+	border-style: groove;
+	background-color: white;
+}
+.boxdlmbox2{
+	height: 600px;
+	width: 520px;
+	border-style: groove;
+	margin-top: 30px;
+	background-color: white;
+}
+#txtnamatimeline{
+	font-family: Lucida Sans Unicode;
+	font-size: 30pt;
+	display: inline-block;
+	margin-left: 16px;
+}
+#txtwaktutimeline{
+	font-size: 10pt;
+	display: inline-block;
+	float: right;
+	padding-top: 25px;
+}
+#txtnamatempat{
+	margin-left: 20px;
+	font-size: 15pt;
+}
+#txt_tempat_keterangan{
+	margin-left: 20px;
+	font-size: 10pt;
+}
+#gambar_timeline{
+	width: 519px;
+}
+#ikon_like{
+	width: 20px;
+	width: 20px;
+	display: inline-block;
+	margin-left: 5px;
+}
+#ikon_share{
+	width: 20px;
+	width: 20px;
+	display: inline-block;
+	margin-left: 15px;
+}
+#txt_like_share{
+	font-size: 15pt;
+	display: inline-block;
+}
+#kolom_komentar{
+	width: 500px;
+	margin-left: 5px;
+	height: 30px;
+	border-style: solid;
+}
+.lupa_password{
+	width: 400px;
+	background-color: #CCCCCC;
+	border-style: groove;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: block;
+}
+#button_lupa_password{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	text-align: center;
+	color: initial;
+	width: 70px;
+	height: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#input_lupa_password{
+	height: 20px;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+#txt_lupa_password{
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+}
+.body_setting{
+	width: 1000px;
+}
+.body_setting{
+	margin-right: auto;
+	margin-left: auto;
+	display: block; 
+	padding-top: 20px;
+}
+.box_setting{
+	height: auto;
+	width: 1000px;
+	display: inline-block;
+	border-style: groove;
+	background-color: white;
+}
+#ikon_pengaturan{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+#txt_pengaturan_in_setiing{
+	display: inline-block;
+	font-size: 50pt;
+	padding-left: 20px;
+}
+#box1_setting{
+	width: 250px;
+	padding-left: 20px;
+	font-size: 18pt;
+	padding-top: 10px;
+	display: inline-block;
+}
+#txt_box_in_setting{
+	font-size: 20pt;
+	padding-top: 12px;
+}
+#box2_setting{
+	width: 500px;
+	padding-left: 50px;
+	font-size: 18pt;
+	padding-top: 30px;
+	display: inline-block;
+	vertical-align: top;
+}
+#box_input_in_setting{
+	width: 350px;
+	height: 30px;
+	text-align: center;
+	color: black;
+	font-size: 18pt;
+	margin-top: 10px;
+	display: inline-block;
+	border-style: groove;
+}
+#txt_privasi_kebawah{
+	padding-top: 170px;
+	font-size: 18pt;
+}
+#box_password{
+	width: 350px;
+	height: 30px;
+	text-align: center;
+	color: black;
+	font-size: 18pt;
+	margin-top: 55px;
+	border-style: groove;
+	display: inline-block;
+}
+#ikon_change{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 20px;
+}
+#ikon_simpan_in_ganti_setting{
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	display: inline-block;
+	margin-left: 380px;
+	margin-top: -30px;
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: #00CCCC;
+}
+#box_profil{
+	width: 1000px;
+	height: auto;
+}
+#box_profil{
+	margin-right: auto;
+	margin-left: auto;
+	display: block; 
+}
+#fotobesar_in_profil{
+	width: 1000px;
+	height: 500px;
+}
+#navigasi_profil{
+	width: 994px;
+	height: 50px;
+	background-color: white;
+	margin-top: -5px;
+	border-style: groove;
+}
+#txt_nav_profil{
+	font-size: 20pt;
+	color: black;
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+#txt_nav_profil:hover {
+ color: blue;
+}
+#box_aktivitas{
+	width: 994px;
+	height: 780px;
+	border-style: groove;
+	margin-top: 20px;
+	background-color: white;
+}
+#txt_date_profil{
+	color: blue;
+	font-size: 15pt;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+#ikon_profil_in_aktivitas{
+	width: 50px;
+	height: 50px;	
+	padding-top: 20px;
+	padding-left: 70px;
+	display: inline-block;
+}
+#txt_nama_in_aktivitas{
+	font-size: 20pt;
+	padding-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 35px;
+}
+#judul_aktivitas{
+	font-size: 16pt;
+	padding-left: 70px;
+	padding-top: 10px;
+}
+#foto_timeline_aktivitas{
+	padding-left: 70px;
+	padding-top: 10px;
+	width: 850px;
+	height: 450px;
+}
+#ikon_like_aktifitas{
+	width: 20px;
+	height: 20px;
+	padding-left: 70px;
+	display: inline-block;
+}
+#kotak_in_gambar_profil{
+	width: 1000px;
+	height: 100px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	margin-top: -150px;
+}
+#ikon_profil_in_fotobesar{
+	margin-top: -25px;
+	width: 150px;
+	height: 150px;
+	padding-left: 40px;
+	display: inline-block;
+}
+#nama_in_box_hitam{
+	font-size: 18pt;
+	color: white;
+	position: absolute;
+	margin-top: -110px;
+	margin-left: 220px;
+}
+#follower_in_boxhitam{
+	color: white;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 220px;
+}
+#tombol_follow{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: #2B94BD;
+	width: 180px;
+	height: 40px;
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 700px;
+}
+#txt_ikuti{
+	font-size: 18pt;
+	font-family: Segoe Print;
+}
+#gambar_play{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-top: -320px;
+	margin-left: 400px;
+}
+#txt_banyaknya_like_in_aktivitas{
+	display: inline-block;
+	padding-left: 10px;
+}
+#txt_nama_yang_komen{
+	font-size: 16pt;
+	vertical-align: top;
+	display: inline-block;
+	padding-left: 5px;
+}
+#kolom_komentar{
+	width: 765px;
+	height: 30px;
+	border-style: groove;
+	display: inline-block;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: -40px;
+}
+#txt_komentar{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+#box_komentar{
+	width: 850px;
+	padding-left: 70px;
+}
+#ikon_profil_in_kolom_komentar{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+}
+#txt_waktu_komen{
+	font-size: 10pt;
+	float: right;
+}
+#ikon_like_setelah_komen{
+	width: 20px;
+	height: 20px;
+	padding-left: 80px;
+	padding-top: 5px;
+	display: inline-block;
+}
+#txt_suka_setelah_komen{
+	padding-left: 10px;
+	font-size: 14pt;
+	display: inline-block;
+	padding-top: -5px;
+}
+#box_tulisan_identitas{
+	width: 993px;
+	height: 100px;
+	border-style: solid;
+	margin-top: 20px;
+	background-color: #F5F5F5;
+	margin-left: -3px;
+	margin-top: -2px;
+}
+#ikon_identitas{
+	width: 80px;
+	height: 60px;
+	padding-left: 40px;
+	padding-top: 20px;
+	display: inline-block;
+}
+#txt_identitas{
+	font-size: 25pt;
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 32px;
+	vertical-align: top;
+}
+#box_identitas{
+	width: 994px;
+	height: 350px;
+	border-style: groove;
+	margin-top: 20px;
+	background-color: white;
+}
+#txt_in_identitas{
+	font-size: 18pt;
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 200px;
+	display: inline-block;
+}
+#keterangan_identitas{
+	width: 300px;
+	height: 30px;
+	border-style: groove;
+	margin-top: 18px;
+}
+#container_keterangan_identitas{
+	vertical-align: top;
+	display: inline-block;
+}
+#txt_keterangan{
+	font-size: 20pt;
+}
+#gambar1_in_box_foto_dan_video{
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+}
+#ikon_like_in_foto_dan_video{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 110px;
+}
+#txt_komentari_in_foto_dan_video{
+	padding-left: 5px;
+	display: inline-block;
+}
+#box_in_foto_dan_video{
+	vertical-align: top;
+	display: inline-block;
+	position: absolute;
+}
+#gambar2_in_box_foto_dan_video{
+	width: 250px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 260px;
+}
+#ikon_foto_pengikut{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#txt_pengikut{
+	font-size: 20pt;
+	display: inline-block;
+	padding-left: 70px;
+	vertical-align: top;
+	padding-top: 40px;
+}
+#tombol_mengikuti{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #D6D6D6;
+	width: 180px;
+	height: 30px;
+	font-size: 20pt;
+}
+#tombol_ikuti{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: #ADE1F4;
+	width: 180px;
+	height: 30px;
+	font-size: 20pt;
+}
+#box_ikuti_mengikuti{
+	margin-left: 700px;
+	margin-top: -55px;
+}
+#ikon_show_password{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 140px;
+}
+#ikon_show_password_in_ganti_setting{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	margin-top: -32px;
+	margin-left: 318px;
+}
+#ikon_simpan_perubahan_setting{
+	-webkit-appearance:button;
+	-moz-appearance:button;
+	appearance:button;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	background-color: #00CCCC;
+	width: 100px;
+	height: 30px;
+	margin-top: 12px;
+	vertical-align: top;
+}
