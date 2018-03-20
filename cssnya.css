@@ -1,19 +1,54 @@
 #ukuran{
-	height: 20%;
+	height: 100px;
 	width:100%;
 	background-color: yellow;
-}
-#tulisanatas{
-	font-family: MV Boli;
-	font-size: 25pt;
-}
-#tulisanbawah{
-	font-family: MV Boli;
-	font-size: 25pt;
+	display: inline-block;	
 }
 #font_kwek{
 	font-family: MV Boli;
 	font-size: 50pt;
+	margin-left: 100px;
+}
+#tampilan_text_login{
+	margin-top: -70px;
+	margin-left: 900px;
+}
+#font_ket_login{
+	display: inline-block;
+}
+#font_ket_password{
+	display: inline-block;
+	padding-left: 130px;
+}
+#tampilan_input_login{
+	margin-left: 900px; 
+}
+#lupa_password{
+	margin-left: 1080px;
+}
+#tulisanatas{
+	font-family: MV Boli;
+	font-size: 25pt;
+	padding-left: 100px;
+}
+#tulisanbawah{
+	font-family: MV Boli;
+	font-size: 25pt;
+	padding-left: 400px;
+}
+#gambar_duck{
+	width : 250px;  
+	height : 400px;
+	
+}
+#box_daftar{
+	margin-left: 800px;
+	margin-top: -350px;
+}
+#box_duck{
+	display: inline-block;
+	padding-left: 250px;
+	padding-top: 20px;
 }
 #margin{
 	margin: 0;
@@ -26,9 +61,14 @@
 #fontskrg{
 	font-family: Arial;
 	font-size: 18pt;
+	margin-top: 5px;
 }
-.placeholder{
+#jarak_antar_box_daftar{
+	margin-top: 10px;
+}
+#placeholder{
 	text-align: center;
+	height: 20px;
 }
 .buttondaftar{
 	-webkit-appearance:button;
@@ -37,8 +77,9 @@
 	text-decoration: none;
 	color: initial;
 	width: 220px;
-	height: 18px;
+	height: 25px;
 	text-align: center;
+	padding-top: 8px;
 }
 .buttonlogin{
 	-webkit-appearance:button;
@@ -47,8 +88,23 @@
 	text-decoration: none;
 	text-align: center;
 	color: initial;
-	width: 70px;
+	width: 80px;
 	height: 20px;
+	padding-top: 5px;
+}
+#posisi_tombol_masuk{
+	display: inline-block;
+	margin-top: -10px;
+}
+#input_login{
+	display: inline-block;
+}
+#input_login_last_name{
+	display: inline-block;
+	margin-left: -2px;
+}
+#box_input_daftar{
+	width: 30px;
 }
 .tabellp{
 left: 50%;
@@ -126,25 +182,51 @@ nav ul ul ul{
  position: absolute;
  left: 100%;
 }
+.bar_atas{
+	width: 100%;
+	height: 100px;
+	display: block;
+	background-color: yellow;
+}
 #pcccari{
-	padding-left: 0px;
-	padding-top: 10px;
+	padding-left: 100px;
+	margin-top: -50px;
 }
 #pccikons{
-	padding-top: 10px;
+	margin-top: -30px;
+	margin-left: 410px;
 }
 #ukuransearch{
 	height: 30px;
 	width: 300px;
 }
 #pccprofil{
-	padding-top: 5px;
+	padding-left: 550px;
+	margin-top: -50px;
+}
+#pcc_txt_profil{
+	padding-left: 610px;
+	margin-top: -50px;
 }
 #pcchome{
-	padding-left: 30px;
-	padding-top: 15px;
+	padding-left: 850px;
+	margin-top: -50px;
+}
+#pcc_notif{
+	padding-left: 950px;
+	margin-top: -55px;
+	width: 5%;	
+}
+#pcc_setting{
+	padding-left: 1050px;
+	margin-top: -55px;
+}
+#pcc_keluar{
+	padding-left: 1200px;
+	margin-top: -50px;
 }
 #ikonprofil{
+	padding-top: 10px;
 	width: 80px;
 	height: 80px;
 }
@@ -157,9 +239,9 @@ nav ul ul ul{
 	height: 50px;
 }
 #pcckwek{
-	padding-top: 5px;
+	padding-top: 20px;
 	padding-left: 30px;
-
+	display: block;
 }
 #fontbagoes{
 	font-family: Lucida Sans Unicode;
@@ -183,15 +265,9 @@ nav ul ul ul{
 	height: 250px;
 }
 .bodyhome{
-	width: 1200px;
-}
-.bodyhome{
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	display: block; 
-	padding-top: 20px;
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
 }
 .box1{
 	height: auto;
@@ -199,6 +275,7 @@ nav ul ul ul{
 	display: inline-block;
 	border-style: groove;
 	background-color: white;
+	margin-left: 100px;
 }
 .box2{
 	vertical-align: top;
@@ -208,13 +285,16 @@ nav ul ul ul{
 	margin-left: 90px;
 	margin-right: 90px;
 }
-#kolom_komentar_home{
+.kolom_komentar_home{
 	margin-left: 5px;
 	width: 500px;
 	height: 30px;
 	border-style: groove;
 	margin-top: -10px;
 }
+.kolom_komentar_home::-webkit-input-placeholder{
+	color: black;
+	}
 .box3{
 	float: right;
 	vertical-align: top;
@@ -222,6 +302,7 @@ nav ul ul ul{
 	display: inline-block;
 	border-style: groove;
 	background-color: white;
+	margin-right: 20px;
 }
 #ikon_indo{
 	width:25px; 
@@ -233,7 +314,6 @@ nav ul ul ul{
 	padding-left: 5px;
 }
 #ikon_tambah{
-	padding-top: 10px;
 	display: inline-block;	
 	width: 35px;
 	height: 35px;
@@ -300,21 +380,19 @@ nav ul ul ul{
 #gambar_timeline{
 	width: 519px;
 }
-#ikon_like{
+.ikon_like{
 	width: 20px;
 	width: 20px;
-	display: inline-block;
 	margin-left: 5px;
 }
 #ikon_share{
 	width: 20px;
 	width: 20px;
-	display: inline-block;
 	margin-left: 15px;
 }
 #txt_like_share{
 	font-size: 15pt;
-	display: inline-block;
+	border-style: none;
 }
 #kolom_komentar{
 	width: 500px;
@@ -772,3 +850,127 @@ nav ul ul ul{
 	margin-top: 12px;
 	vertical-align: top;
 }
+.upload {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.8);
+}
+.upload-content {
+    background-color: #fefefe;
+    overflow: auto;
+    margin: 10% auto; 
+    height: 490px;
+    width: 60%; 
+    border: 3px solid #1B3280;
+}
+.close {
+    color: #aaa;
+    font-size: 35px;
+    color: black;
+}
+.kirim_upload{
+	background-color: #33CCFF;
+	font-size: 35px;
+	color: white;
+}
+#myupload{	
+}
+#mybuttonupload{	
+}
+#txt_popup{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.box_txt_popup{
+	background-color: #CCCCCC;
+	height: 50px;
+	width: 100%;
+}
+#box_file_upload{
+	border-style: dotted;
+	border-width: 1;
+	margin: 10px auto; 
+	width: 95%;
+	height: 300px;
+}
+#ikon_upload{
+	padding-top: 80px;
+	padding-left: 300px;
+}
+#txt_upload{
+	font-size:25pt;
+	padding-left: 250px;
+}
+.box_keterangan_upload{
+	border-style: solid;
+	border-width: 1; 
+	width: 97%;
+	height: 40px;
+	margin: 10px;
+	font-size: 18pt;
+}
+.box_keterangan_upload::-webkit-input-placeholder{
+	color: black;
+}
+#myshare{
+}
+#mybuttonshare{
+	font-size: 15pt;
+	border-style: none;
+	background-color: transparent;
+}
+.share {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.8); 
+}
+.share-content {
+    background-color: #fefefe;
+    margin: auto;
+    height: 560px;
+    width: 40%; 
+    border: 3px solid #1B3280;
+     overflow: auto;
+}
+.close_share {
+    color: #aaa;
+    font-size: 25px;
+    color: black;
+}
+.kirim_share{
+	background-color: #33CCFF;
+	font-size: 25px;
+	color: white;
+}
+#pcc_image_share{
+	margin-left: 4%;
+	margin-top: 3%;
+}
+#image_share{
+	width: 500px;
+	height: 400px;
+}
+.input_ket_share{
+	width: 96%;
+	height: 30px;
+	border-style: double;
+}
+.input_ket_share::-webkit-input-placeholder{
+	color: black;
+}	
